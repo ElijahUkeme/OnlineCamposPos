@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/drawer_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:id="@+id/drawer_index"
+            android:title="Index"
+            android:icon="@drawable/ic_list"/>
+
+        <item android:id="@+id/drawer_order_of_mass"
+            android:title="Order of Mass:English/Latin"
+            android:icon="@drawable/ic_baseline_post_add_24"/>
+
+        <item android:id="@+id/drawer_contact"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_baseline_contact_mail_24"/>
+
+        <item android:id="@+id/drawer_about"
+            android:title="About Us"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"/>
+
+        <item android:id="@+id/drawer_rate"
+            android:title="Rate Us"
+            android:icon="@drawable/ic_rate_us"/>
+
+        <item android:id="@+id/drawer_share"
+            android:title="Share App"
+            android:icon="@drawable/ic_baseline_share_24"/>
+
+        <item android:id="@+id/drawer_logout"
+            android:title="Log out"
+            android:icon="@drawable/ic_logout"/>
+    </group>
+</menu>

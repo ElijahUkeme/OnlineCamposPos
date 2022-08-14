@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background_design"
+    android:backgroundTint="#148C58"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textview_item_list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="Name of the student"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textview_registration_number_item_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration Number"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:layout_below="@+id/textview_item_list_name"/>
+
+        <TextView
+            android:id="@+id/textview_attendance_status_item_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:text="Attendance status"
+            android:layout_below="@+id/textview_registration_number_item_list"/>
+
+        <TextView
+            android:id="@+id/textview_mark_item_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:text="Score"
+            android:layout_below="@+id/textview_attendance_status_item_list"/>
+
+        <TextView
+            android:id="@+id/textview_date_item_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:text="Date"
+            android:layout_below="@+id/textview_mark_item_list"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

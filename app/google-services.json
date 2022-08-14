@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1094044898911",
+    "project_id": "online-campos-pos-cdb5b",
+    "storage_bucket": "online-campos-pos-cdb5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094044898911:android:4bd24dd6474f2ab7606dea",
+        "android_client_info": {
+          "package_name": "com.elijah.ukeme.onlinecampospos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094044898911-6r7t87qmvrroivtq2l31rrsc1gqr746h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABjX7LOIPo3t0AvKRc01hGA1V9VbSYbFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094044898911-6r7t87qmvrroivtq2l31rrsc1gqr746h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

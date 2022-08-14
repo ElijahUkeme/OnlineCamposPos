@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="activities.ChargeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/charge_display_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="You will be charge for this transaction"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/accept_button"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/input_design"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:text="Accept"
+            android:padding="4dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginRight="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reject_button"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/input_design"
+            android:padding="4dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:text="Reject"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginRight="15dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
